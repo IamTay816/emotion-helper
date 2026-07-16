@@ -42,26 +42,26 @@
 
 ## 项目结构
 
-emotion-helper/
-├── main.py                    # 程序入口
-├── requirements.txt           # Python依赖
-├── AGENTS.md                  # AI开发指令
-│
-├── app/                       # 应用程序核心代码
-│   ├── main_window.py         # 主窗口
-│   ├── styles.qss             # 样式表（淡黄色主题）
-│   ├── modules/               # 功能模块
-│   │   ├── mood_record.py     # 心情记录
-│   │   ├── mood_calendar.py   # 心情日历
-│   │   ├── history_view.py    # 历史记录
-│   │   └── chat_helper.py     # 对话助手
-│   ├── models/                # 数据模型
-│   ├── services/              # 业务逻辑层
-│   └── utils/                 # 工具函数
-│
-├── data/                      # 数据目录（运行时创建）
-├── docs/                      # 项目文档
-└── logs/                      # 开发日志
+`emotion-helper/`
+`├── main.py                    # 程序入口`
+`├── requirements.txt           # Python依赖`
+`├── AGENTS.md                  # AI开发指令`
+`│`
+`├── app/                       # 应用程序核心代码`
+`│   ├── main_window.py         # 主窗口`
+`│   ├── styles.qss             # 样式表（淡黄色主题）`
+`│   ├── modules/               # 功能模块`
+`│   │   ├── mood_record.py     # 心情记录`
+`│   │   ├── mood_calendar.py   # 心情日历`
+`│   │   ├── history_view.py    # 历史记录`
+`│   │   └── chat_helper.py     # 对话助手`
+`│   ├── models/                # 数据模型`
+`│   ├── services/              # 业务逻辑层`
+`│   └── utils/                 # 工具函数`
+`│`
+`├── data/                      # 数据目录（运行时创建）`
+`├── docs/                      # 项目文档`
+`└── logs/                      # 开发日志`
 
 ## 技术栈
 

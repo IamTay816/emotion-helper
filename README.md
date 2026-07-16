@@ -26,23 +26,27 @@
 
 1. 克隆或下载本项目
 
-   `git clone https://github.com/PaperK816/emotion-helper.git
+   `bash
+   git clone https://github.com/PaperK816/emotion-helper.git
    cd emotion-helper
    `
 
 2. 安装依赖
 
-   `pip install -r requirements.txt
+   `bash
+   pip install -r requirements.txt
    `
 
-3. 运行程序
+4. 运行程序
 
-   `python main.py
+   `bash
+   python main.py
    `
 
 ## 项目结构
 
-`emotion-helper \N
+```text
+emotion-helper
 ├── main.py                    # 程序入口
 ├── requirements.txt           # Python依赖
 ├── AGENTS.md                  # AI开发指令
@@ -62,7 +66,7 @@
 ├── data/                      # 数据目录（运行时创建）
 ├── docs/                      # 项目文档
 └── logs/                      # 开发日志
-`
+```
 
 ## 技术栈
 

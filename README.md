@@ -26,20 +26,20 @@
 
 1. 克隆或下载本项目
 
-   `bash
+   `
    git clone https://github.com/PaperK816/emotion-helper.git
    cd emotion-helper
    `
 
 2. 安装依赖
 
-   `bash
+   `
    pip install -r requirements.txt
    `
 
 4. 运行程序
 
-   `bash
+   `
    python main.py
    `
 
